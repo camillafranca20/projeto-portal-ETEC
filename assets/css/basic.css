@@ -66,7 +66,7 @@ body {
 
 .navbar-cls-top .navbar-brand {
     color: #fff;
-    background: #202020;
+    background: #f1c200;
     width: 260px;
     text-align: center;
     height: 75px;
@@ -108,7 +108,7 @@ body {
     }
 
 .active-menu {
-    background-color: #00CA79!important;
+    background-color: #f1c200!important;
 }
 .active-menu-top {
     background-color: #000!important;
@@ -184,7 +184,7 @@ body {
 }
 
 .navbar-cls-top {
-    background: #00CA79;
+    background: #f1c200;
     border-bottom: none;
 }
 
@@ -212,6 +212,36 @@ body {
 .nav > li > a > i {
     margin-right: 10px;
 }
+
+/*==========================RATINGS===============*/
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+/*================================================*/
 /*==============================================
     FOOTER  STYLES    
     =============================================*/
